@@ -1,0 +1,66 @@
+ACTIVIDAD 4 - EJECUCIÓN REAL DEL EVALUADOR
+Semilla: DOC008
+Necesidad: Localizar políticas, procedimientos y experiencias sobre retención, integridad y restauración de respaldos después de un respaldo nocturno fallido por falta de espacio.
+Corpus: 30 documentos. Universo evaluado: 29 (semilla excluida).
+
+TOP-5
+ rank     id                                                 title             category  similarity
+    1 DOC012                   Bitácora de pruebas de recuperación    Operación y guías    0.090867
+    2 DOC011      Ticket: restauración incompleta por copia dañada Soporte e incidentes    0.087552
+    3 DOC010 FAQ: diferencia entre respaldo completo e incremental    Operación y guías    0.062210
+    4 DOC007         Política de respaldos y restauración de datos Políticas y procesos    0.061663
+    5 DOC002                 Ticket: cuenta bloqueada en el portal Soporte e incidentes    0.055285
+
+ENTRADAS Y CLASIFICACIÓN DE LOS 29 CANDIDATOS
+    id                                                         title  relevante                                                                           justificacion  recuperado resultado
+DOC001                 Política de acceso y autenticación de cuentas          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           0        VN
+DOC002                         Ticket: cuenta bloqueada en el portal          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           1        FP
+DOC003                            Proceso de alta y baja de permisos          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           0        VN
+DOC004              FAQ: recuperación de contraseña y segundo factor          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           0        VN
+DOC005 Ticket: permisos insuficientes después de un cambio de puesto          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           0        VN
+DOC006                     Revisión mensual de cuentas privilegiadas          0                 Trata cuentas, acceso y autenticación; no la recuperación de respaldos.           0        VN
+DOC007                 Política de respaldos y restauración de datos          1                  Define calendario, retención y pruebas de integridad de los respaldos.           1        VP
+DOC009                        Proceso de restauración de un respaldo          1                  Explica restaurar una copia en un entorno aislado y validar los datos.           0        FN
+DOC010         FAQ: diferencia entre respaldo completo e incremental          1               Explica la cadena incremental y cómo la retención afecta la recuperación.           1        VP
+DOC011              Ticket: restauración incompleta por copia dañada          1                     Documenta una copia dañada y la selección de una copia recuperable.           1        VP
+DOC012                           Bitácora de pruebas de recuperación          1                      Registra pruebas e incluye capacidad del repositorio e integridad.           1        VP
+DOC013               Política de despliegue y reversión de versiones          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC014         Ticket: errores después del despliegue de una versión          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC015                Proceso de autorización de cambios de software          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC016              Guía de rollback ante una publicación defectuosa          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC017        Ticket: despliegue detenido por pruebas de integración          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC018                       Lista de verificación de una liberación          0                Trata despliegues y reversión de software; no la restauración de copias.           0        VN
+DOC019                   Política de atención de correos sospechosos          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC020                 Ticket: correo de phishing con enlace externo          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC021               Proceso de aislamiento de equipos comprometidos          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC022                        FAQ: señales de un mensaje fraudulento          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC023             Ticket: archivo malicioso abierto desde un correo          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC024                            Bitácora de simulación de phishing          0                 Trata phishing y seguridad de equipos; no la recuperación de respaldos.           0        VN
+DOC025                          Política de monitoreo de rendimiento          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+DOC026                Ticket: latencia elevada por saturación de CPU          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+DOC027                              Proceso de análisis de capacidad          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+DOC028                  Guía de diagnóstico de lentitud del servicio          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+DOC029                          Ticket: consumo creciente de memoria          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+DOC030              Resumen de métricas de disponibilidad y latencia          0 Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.           0        VN
+
+y_true = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+y_pred = [0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+VP=4; FP=1; FN=1; VN=23
+
+MÉTRICAS
+  metrica  resultado
+Precision        0.8
+   Recall        0.8
+ F1-score        0.8
+
+Matriz [[VN, FP], [FN, VP]] = [[23, 1], [1, 4]]
+
+RELEVANTES OMITIDOS (diagnóstico)
+ rank     id                                  title             category  similarity
+    6 DOC009 Proceso de restauración de un respaldo Políticas y procesos    0.053319
+
+Versiones: {'python': '3.12.14', 'sklearn': '1.8.0', 'pandas': '2.2.3', 'numpy': '2.3.5'}
+Validaciones de cobertura, exclusión de semilla y fórmulas: OK.
+EJECUCIÓN COMPLETADA SIN ERRORES.

@@ -1,0 +1,6 @@
+rank,id,title,category,similarity
+1,DOC012,Bitácora de pruebas de recuperación,Operación y guías,0.09086712128496693
+2,DOC011,Ticket: restauración incompleta por copia dañada,Soporte e incidentes,0.08755159115102172
+3,DOC010,FAQ: diferencia entre respaldo completo e incremental,Operación y guías,0.06221025647215894
+4,DOC007,Política de respaldos y restauración de datos,Políticas y procesos,0.06166255068446876
+5,DOC002,Ticket: cuenta bloqueada en el portal,Soporte e incidentes,0.05528451083267319

@@ -1,0 +1,35 @@
+{
+  "semilla": "DOC008",
+  "necesidad": "Localizar políticas, procedimientos y experiencias sobre retención, integridad y restauración de respaldos después de un respaldo nocturno fallido por falta de espacio.",
+  "k": 5,
+  "documentos": 30,
+  "candidatos": 29,
+  "relevantes": 5,
+  "recuperados": 5,
+  "precision": 0.8,
+  "recall": 0.8,
+  "f1": 0.8,
+  "VP": 4,
+  "FP": 1,
+  "FN": 1,
+  "VN": 23,
+  "matriz": [
+    [
+      23,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "corpus_sha256": "7160f0ab2a3b8e32cc50a387f8df81c66aefcf9198449c2a4d0cb8acfc982e62",
+  "recomendador_sha256": "20adff54ff651d5cf610883ee3b4e7484148c342a18bc415392694646feea504",
+  "versiones": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "alcance": "Evaluación temática de un caso simulado; no mide resolución de incidentes."
+}

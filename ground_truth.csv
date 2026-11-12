@@ -1,0 +1,30 @@
+id,relevante,justificacion
+DOC001,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC002,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC003,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC004,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC005,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC006,0,"Trata cuentas, acceso y autenticación; no la recuperación de respaldos."
+DOC007,1,"Define calendario, retención y pruebas de integridad de los respaldos."
+DOC009,1,Explica restaurar una copia en un entorno aislado y validar los datos.
+DOC010,1,Explica la cadena incremental y cómo la retención afecta la recuperación.
+DOC011,1,Documenta una copia dañada y la selección de una copia recuperable.
+DOC012,1,Registra pruebas e incluye capacidad del repositorio e integridad.
+DOC013,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC014,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC015,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC016,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC017,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC018,0,Trata despliegues y reversión de software; no la restauración de copias.
+DOC019,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC020,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC021,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC022,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC023,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC024,0,Trata phishing y seguridad de equipos; no la recuperación de respaldos.
+DOC025,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.
+DOC026,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.
+DOC027,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.
+DOC028,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.
+DOC029,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.
+DOC030,0,Trata rendimiento del servicio; no capacidad del repositorio ni restauración de copias.

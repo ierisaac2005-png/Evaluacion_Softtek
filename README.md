@@ -1,5 +1,7 @@
 # Actividad 4 · Evaluación del recomendador Softtek
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Evaluacion_Softtek/blob/main/Actividad_4_Evaluacion_Softtek.ipynb)
+
 **Isaac Esquivel Ruiz · Universidad Tecmilenio**  
 Sistemas y tecnologías de administración del conocimiento
 
@@ -31,7 +33,7 @@ Requiere Python 3.10 o posterior. Desde esta carpeta:
 
 ```bash
 python -m pip install -r requirements.txt
-python evaluacion.py --base .
+python src/evaluacion.py --base data
 ```
 
 El notebook contiene copias del código y los datos para ser autónomo. Si se editan archivos externos, esas copias no se actualizan automáticamente. Esta entrega evalúa los originales sin modificaciones.

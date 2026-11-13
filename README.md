@@ -66,4 +66,3 @@ Las mejoras (filtros, vocabulario, K, búsqueda híbrida y metadatos) se propone
 - `salida_ejecucion.png`: visualización del extracto del log.
 - `matriz_confusion.png` y `metricas.png`: figuras originales.
 
-Para subir a GitHub conserva esta estructura. No se incluye un enlace de Colab a un repositorio aún no proporcionado ni se publica automáticamente.
